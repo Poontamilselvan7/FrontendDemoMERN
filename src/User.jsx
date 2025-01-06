@@ -22,7 +22,7 @@ function User() {
     };
 
     return (
-        <div style={{ fontFamily: 'Arial, sans-serif', padding: '0', margin: '0', height: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-start' }}>
+        <div style={{ fontFamily: 'Arial, sans-serif', padding: '0', margin: '0', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-start' }}>
             <h1 style={{ textAlign: 'center', color: '#333', marginBottom: '20px', position: 'absolute', top: '10px', left: '50%', transform: 'translateX(-50%)', fontSize: '3rem' }}>Users</h1>
             <div style={{ marginBottom: '20px', textAlign: 'center', marginTop: '120px', marginLeft: '1280px' }}>
                 <Link to="/create" style={{ textDecoration: 'none', color: 'white', backgroundColor: '#28a745', padding: '12px 18px', borderRadius: '5px', fontSize: '1.1rem' }}>Create User</Link>
